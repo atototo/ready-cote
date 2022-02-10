@@ -6,10 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc = new Scanner(sc.next()).useDelimiter(":");
 
-        float num = sc.nextFloat();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        System.out.printf("%.2f", num);
-
+        System.out.println(a + ":" +b);
     }
 }
