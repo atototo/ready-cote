@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc = new Scanner(sc.next()).useDelimiter(":");
+        sc = new Scanner(sc.next()).useDelimiter("\\.");
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        System.out.printf("%04d.",sc.nextInt());
+        System.out.printf("%02d.",sc.nextInt());
+        System.out.printf("%02d",sc.nextInt());
 
-        System.out.println(a + ":" +b);
     }
 }
