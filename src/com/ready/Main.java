@@ -6,15 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        long firstNum = sc.nextLong();
-        long secondNum = sc.nextLong();
+        System.out.println(sc.nextInt()==1?0:1);
         sc.close();
-
-        System.out.println(firstNum + secondNum);
-        System.out.println(firstNum - secondNum);
-        System.out.println(firstNum * secondNum);
-        System.out.println(firstNum / secondNum);
-        System.out.println(firstNum % secondNum);
-        System.out.println(String.format("%.2f",(firstNum / (double) secondNum)));
     }
 }
