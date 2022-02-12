@@ -2,7 +2,7 @@ package com.ready.codeup;
 
 /**
  * packageName : com.ready.codeup
- * fileName : CodeUp53
+ * fileName : CodeUp58
  * author : isbn8
  * date : 2022-02-12
  * description :
@@ -15,22 +15,18 @@ package com.ready.codeup;
 import java.util.Scanner;
 
 /**
- * 1(true, 참) 또는 0(false, 거짓) 이 입력되었을 때
- * 반대로 출력하는 프로그램을 작성해보자.
+ * 두 개의 참(1) 또는 거짓(0)이 입력될 때,
+ * 모두 거짓일 때에만 참이 계산되는 프로그램을 작성해보자.
  *
- * 정수 1개가 입력된다.(단, 0 또는 1 만 입력된다.)
- * 입력된 값이 0이면 1, 1이면 0을 출력한다.
- *
- * ex : 1
+ * input : 1 또는 0의 값만 가지는 2개의 정수가 공백을 두고 입력된다.
+ * output : 둘 다 거짓일 경우에만 1을 출력하고, 그 외의 경우에는 0을 출력한다.
+ * ex : 0 1
  * result : 0
  */
-
-public class CodeUp53 {
-
+public class CodeUp58 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(sc.nextInt()==1?0:1);
+        System.out.println((sc.nextInt()!=1&&sc.nextInt()!=1)? 1:0);
         sc.close();
     }
-
 }
