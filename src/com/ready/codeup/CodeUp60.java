@@ -28,7 +28,7 @@ import java.util.Scanner;
  * ex : 3 5
  * result : 1
  */
-public class CodUp60 {
+public class CodeUp60 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
