@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 
 /**
- * 아스키 코드를 입력받아 순서를 반대로 문자로 출력
+ *  코드를 입력받아 순서를 반대로 문자로 출력
  */
 public class CodeUp13 {
 
