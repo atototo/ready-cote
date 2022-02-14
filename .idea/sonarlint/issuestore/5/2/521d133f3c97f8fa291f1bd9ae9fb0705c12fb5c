@@ -1,0 +1,14 @@
+
+X
+java:S1854 "6Remove this useless assignment to local variable "dd".(ÃÍßÿÿÿÿÿ8ÖšÁÈî/
+S
+java:S1854"6Remove this useless assignment to local variable "mm".(“…ì”8ÖšÁÈî/
+D
+java:S1481"'Remove this unused "mm" local variable.(“…ì”8ÖšÁÈî/
+I
+java:S1481 "'Remove this unused "dd" local variable.(ÃÍßÿÿÿÿÿ8ÖšÁÈî/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Ôèÿ±úÿÿÿÿ8ÖšÁÈî/
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ó‚¼®ıÿÿÿÿ8ÖšÁÈî/
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(°¨¶¿ıÿÿÿÿ8ÖšÁÈî/
+b
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ß©„£8åšÁÈî/

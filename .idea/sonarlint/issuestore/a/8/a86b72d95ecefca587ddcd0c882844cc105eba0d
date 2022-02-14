@@ -1,0 +1,11 @@
+
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ù¸ÜĞşÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(ÉªŒàÿÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(’õÌÑ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(¿ÌÎ®
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(Û¤Ş»
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(Ğ…Şøüÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(¯³ë§ûÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(ÒÓ€
+G
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ
