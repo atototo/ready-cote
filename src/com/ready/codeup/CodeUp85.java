@@ -12,6 +12,8 @@ package com.ready.codeup;
  * 2022-02-13              isbn8             최초 생성
  */
 
+import java.io.*;
+
 /**
  * 소리가 컴퓨터에 저장될 때에는 디지털 데이터화 되어 저장된다.
  *
@@ -25,7 +27,7 @@ package com.ready.codeup;
  * 실제로 일반적인 CD 음질(44.1KHz, 16bit, 스테레오)로 1초 동안 저장하려면
  * 44100 * 16 * 2 * 1 bit의 저장공간이 필요하다.
  * ---------------------------------
- *       8 bit(비트)           = 1byte(바이트)     //       8bit=1Byte
+ *  8 bit(비트)           = 1byte(바이트)     //       8bit=1Byte
  * 1024 Byte(2^10 byte) = 1KB(킬로 바이트) // 1024bit=1KB
  * 1024 KB(2^10 KB)      = 1MB(메가 바이트)
  * 1024 MB(2^10 MB)     = 1GB(기가 바이트)
@@ -41,4 +43,19 @@ package com.ready.codeup;
  *
  */
 public class CodeUp85 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        String[] inputArr = br.readLine().split(" ");
+
+        long times = 1L;
+        for (String tmp : inputArr) {
+            times *= Integer.parseInt(tmp);
+        }
+        bw.write(String.format("%.1f MB",(double)times / (8 * 1024 * 1024)));
+        bw.flush();
+
+
+    }
 }
